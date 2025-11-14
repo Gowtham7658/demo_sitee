@@ -1,0 +1,7 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Introduction"
+    url: "/wiki/introduction/"
+  - title: "Getting Started"
+    url: "/wiki/getting-started/"

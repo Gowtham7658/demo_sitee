@@ -1,0 +1,81 @@
+$header-bg: #333;
+$sidebar-width: 250px;
+$active-color: #0078d4; // SharePoint blue equivalent
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: $header-bg;
+    color: white;
+    padding: 1em 2em;
+}
+.site-title {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* --- Documentation Layout Styles --- */
+
+.page-container {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: $sidebar-width;
+    min-height: calc(100vh - 50px); /* Extend sidebar height */
+    padding: 20px 0 20px 20px;
+    border-right: 1px solid #eee;
+    background: #f7f7f7;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    padding: 0 20px 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 8px 20px 8px 0;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+.sidebar li a:hover {
+    background-color: #e6e6e6;
+}
+
+.sidebar li.active a {
+    font-weight: bold;
+    color: $active-color;
+    border-left: 3px solid $active-color;
+    padding-left: 17px;
+    background-color: #eaf3fb;
+}
+
+.content-area {
+    flex-grow: 1;
+    padding: 20px 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    color: #666;
+    font-size: 0.8em;
+}

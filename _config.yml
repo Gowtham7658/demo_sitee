@@ -1,0 +1,25 @@
+title: ONE Architecture Data Documentation
+description: Materials of architecture to design solutions for RESCO/CFT
+url: "https://gowthame123.github.io"     # ← your GitHub Pages main URL
+baseurl: "/my_jekyll" 
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Custom Collection for Documentation
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:path/
+
+# Default Layout for all Wiki pages
+defaults:
+  - scope:
+      path: ""
+      type: wiki
+    values:
+      layout: wiki
+
+# Clean URLs
+permalink: pretty
+theme: null
