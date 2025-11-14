@@ -1,7 +1,7 @@
 title: ONE Architecture Data Documentation
 description: Materials of architecture to design solutions for RESCO/CFT
 url: ""     # ← your GitHub Pages main URL
-baseurl: "/demo_site" 
+baseurl: "/demo_sitee" 
 markdown: kramdown
 kramdown:
   input: GFM
