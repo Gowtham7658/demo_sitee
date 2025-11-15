@@ -1,5 +1,5 @@
-title: ONE Architecture Data Documentation
-description: Materials of architecture to design solutions for RESCO/CFT
+title: ONE Data Architecture Documentation
+description: Materials of architecture to design solutions for TEIS
 url: ""     # ← your GitHub Pages main URL
 baseurl: "/demo_sitee" 
 markdown: kramdown
